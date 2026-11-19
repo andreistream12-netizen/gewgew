@@ -1,0 +1,205 @@
+_G.AutoNecro = true
+_G.AutoPickups = false
+_G.AutoReady = false
+_G.AutoRejoin = false
+_G.AutoRestart = false
+_G.AutoChain = true
+_G.SupportCaravan = true
+
+shared.SpaceHubDirectMacroStarting = true
+local TDS = shared.TDSTable
+if not TDS or not TDS.LibraryReady then
+    TDS = loadstring(game:HttpGet("https://f.spacehub.wtf/TDS/Loader.lua"))()
+end
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
+
+TDS:Loadout("Gatling Gun", "Necromancer", "Engineer", "Turret", "Commander")
+TDS:Mode("Act4")
+TDS:Ready()
+TDS:Place("Engineer", 3.5834579467773438, 0.9999847412109375, -25.151657104492188)
+TDS:Place("Engineer", -16.716724395751953, 1.0556845664978027, -32.63535690307617)
+TDS:Upgrade(1)
+TDS:Upgrade(1)
+TDS:VoteSkip(0)
+
+-- [ Wave 1 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(2)
+
+-- [ Wave 2 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 5 ] --
+TDS:Place("Necromancer", -8.713048934936523, 1.0000014305114746, -19.359079360961914)
+
+-- [ Wave 7 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(2)
+
+-- [ Wave 9 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 10 ] --
+TDS:Place("Necromancer", -9.068973541259766, 1.0000016689300537, -22.375520706176758)
+TDS:Upgrade(4)
+
+-- [ Wave 11 ] --
+TDS:Upgrade(1)
+TDS:Place("Necromancer", -8.890420913696289, 1.0439584255218506, -16.29763412475586)
+TDS:Upgrade(5)
+
+-- [ Wave 12 ] --
+TDS:Place("Commander", -3.9169301986694336, 1.0000019073486328, -25.747241973876953)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+TDS:Upgrade(6)
+
+-- [ Wave 13 ] --
+TDS:Place("Gatling Gun", 6.7721662521362305, 7.901965618133545, -35.637535095214844)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(5)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(1)
+TDS:Place("Turret", -8.489583969116211, 1.0000019073486328, -25.944555282592773)
+TDS:Place("Turret", -3.6924643516540527, 1.0377764701843262, -32.938148498535156)
+TDS:Upgrade(9)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(8)
+TDS:Place("Turret", -5.533766746520996, 1.0000016689300537, -22.501392364501953)
+TDS:Upgrade(10)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(2)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(7)
+TDS:Upgrade(7)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(9)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+
+-- [ Wave 22 ] --
+TDS:Upgrade(10)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+TDS:Upgrade(4)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(4)
+TDS:Upgrade(3)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(7)
+TDS:Upgrade(3)
+TDS:Upgrade(5)
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Place("Commander", -8.388843536376953, 0.9999831914901733, -33.639625549316406)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Upgrade(11)
+TDS:Place("Commander", -4.619478225708008, 1.0400021076202393, -18.952390670776367)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+TDS:Upgrade(6)
+TDS:Place("Commander", 3.756430149078369, 0.9999791383743286, -20.899044036865234)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Upgrade(13)
+TDS:Place("Commander", 3.6303372383117676, 1.000002145767212, -32.636199951171875)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Upgrade(14)
+TDS:Place("Commander", -5.7150397300720215, 0.9976699352264404, -36.053565979003906)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(15)
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 28 ] --
+TDS:Place("Engineer", -8.98774528503418, 1.0773110389709473, -36.58671188354492)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Place("Engineer", -16.44388198852539, 1.0000019073486328, -25.437231063842773)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Place("Engineer", -5.04639196395874, 1.060977816581726, -15.978904724121094)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Place("Engineer", 3.955214262008667, 1.0508605241775513, -17.885879516601562)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+TDS:Upgrade(19)
+
+-- [ Wave 30 ] --
+TDS:VoteSkip(30)
+TDS:WaitForWave(30)
+TDS:Sell(2)
+TDS:Sell(16)
+TDS:Sell(7)
+TDS:Place("Gatling Gun", 4.274463176727295, 5.9212646484375, -3.0396106243133545)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Upgrade(20)
+TDS:Sell(20)
+TDS:Place("Gatling Gun", 0.42812037467956543, 7.976963996887207, -6.706295967102051)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:Upgrade(21)
+TDS:VoteSkip(30)
+
+-- [[ END OF STRATEGY ]]
